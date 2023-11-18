@@ -1,0 +1,38 @@
+Paginas: 1 pagina principal, 1 pagina de login, 3? paginas de produtos, 1 pagina de form
+
+objetivo: venda de produtos e jogos retro
+
+paleta de cores: azul, branco, laranja >> #1220BA // #8990DD // #FFFFFF // #F1CA97 // #E3942E
+
+
+paleta de cores: azul, branco, laranja >> #1220BA // #8990DD // #FFFFFF // #F1CA97 // #E3942E
+
+
+
+
+
+
+
+
+preciso de ajuda na criação de uma pagina web utilizando "HTML" e "CSS" abaixo irei passar os requisitos e preciso que obedeça todos eles:
+
+-o site precisa ser feito utilizando "HTML" e "CSS", o uso de "bootstrap" ou "JavaScript" é opcional.
+
+-o tema do site sera uma loja de venda de jogos retro, equipamentos e acessórios de video game retro.
+
+-ele deve conter 1 pagina de informações sobre a loja, 1 pagina de login (apenas de aparencia), 1 pagina de contato com um formulario de envio de mensagens (apenas de aparencia), 3 paginas para a venda dos produtos e 1 pagina de carrinho.
+
+-todas as paginas devem ter um nav para acessar as outras.
+
+-faça o código do formulário(apenas a parte visual).
+
+-as paginas de produto devem suportar 6 espaços de produtos que recebam imagem, descrição e preço de cada produto e um botão para adicionar ao carrinho(apenas visual).
+
+cada espaço de produto nas paginas de produtos deve ser separado dos outros por bordas.
+
+-as cores do site devem mesclar as cores da "SEGA" e da "Nintendo".
+
+-os codigos devem obedecer o sistema de "FlexBox".
+
+-envie o "HTML" e o "CSS" de cada pagina separadamente.
+

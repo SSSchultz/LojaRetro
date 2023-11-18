@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    margin: 0; 
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #364bb6;
+    padding: 10px;
+    border-radius: 45%;
+}
+
+header nav h1 {
+     margin-bottom: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 15px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header img {
+    margin-top: -4%;
+    margin-bottom: -3%;
+}
+
+.logo {
+    margin-right: auto; 
+}
+
+.additional-links {
+    margin-left: auto;
+    display: flex;
+}
+
+.additional-links nav {
+    margin-left: 20px;
+}
+
+.info {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    
+}
+
+.content-container {
+    text-align: center;
+}
+
+.content-container h2,
+.content-container p {
+    margin: 10px 0;
+}
+
+.product {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.teste {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+section {
+    flex-wrap: wrap;
+}
