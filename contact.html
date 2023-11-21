@@ -1,58 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Retro G-Shop - Contato</title>
 </head>
-<body>
-    <header>
-        <div class="header-content">
-            <h1>Arkhadia Retro</h1>
-            <img src="imagens/logo-full-2-removebg-preview (1).png" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="info.html">Sobre</a></li>
-                    <li><a href="product1.html">Produto 1</a></li>
-                    <li><a href="product2.html">Produto 2</a></li>
-                    <li><a href="product3.html">Produto 3</a></li>
-                </ul>
-            </nav>
-            <div class="additional-links">
-                <nav class="Contato">
-                    <ul>
-                        <li><a href="contact.html">Contato</a></li>
-                    </ul>
-                </nav>
-                <nav class="login">
-                    <ul>
-                        <li><a href="login.html">Login</a></li>
-                    </ul>
-                </nav>
-            </div>
 
-        </div>
-    </header>
-    
-    <section>
-        <h2>Contato</h2>
-        <form>
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Mensagem:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-    
-    <footer>
+<body>
+    <div class="content-wrap">
+        <header>
+            <div class="header-content">
+                <img src="imagens/logo-full-2-removebg-preview (1).png" class="logo">
+                <div class="part0">
+                    <h1>Arkhadia Retro G-Shop</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="info.html">Sobre</a></li>
+                            <li><a href="product1.html">Produto 1</a></li>
+                            <li><a href="product2.html">Produto 2</a></li>
+                            <li><a href="product3.html">Produto 3</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="part1">
+                    <div class="additional-links">
+                        <nav>
+                            <ul>
+                                <li><a href="contact.html">Contato</a></li>
+                            </ul>
+                        </nav>
+                        <nav>
+                            <ul>
+                                <li><a href="login.html">Login</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+        <section class="content">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="contact-login">
         <p>&copy; 2023 Retro G-Shop. Todos os direitos reservados.</p>
     </footer>
 </body>
+
 </html>

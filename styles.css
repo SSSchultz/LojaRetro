@@ -5,26 +5,45 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    position: relative;
+}
+
+.content-wrap {
+    padding-bottom: 3.5rem
 }
 
 .header-content {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
     color: #fff;
 }
 
 header {
     background-color: #003366;
     color: white;
-    padding: 10px;
-    text-align: center;
+    padding-right: 1%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    max-height: 12vh;
+    height: 7rem;
+}
+
+.part0 {
+    text-align: center;
+}
+
+.part0 h1 {
+    margin: 0;
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
 }
 
 header h1 {
-    margin: 0; 
+    margin: 0;
 }
 
 header a {
@@ -42,7 +61,7 @@ header nav {
 }
 
 header nav h1 {
-     margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 header nav ul {
@@ -63,14 +82,19 @@ header nav ul li:last-child {
 header img {
     margin-top: -4%;
     margin-bottom: -3%;
+    max-width: 100%;
 }
 
 .logo {
-    margin-right: auto; 
+    
+}
+
+.content-produto .product img {
+    max-width: 26vh;
+    object-fit: scale-down;
 }
 
 .additional-links {
-    margin-left: auto;
     display: flex;
 }
 
@@ -89,24 +113,10 @@ header img {
     justify-content: space-around;
 }
 
-.product {
-    
-}
 
-.content-container {
-    text-align: center;
-}
-
-.content-container h2,
-.content-container p {
-    margin: 10px 0;
-}
 
 .product {
     background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
     width: 300px;
     flex: 1;
     margin: 20px;
@@ -115,9 +125,10 @@ header img {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    min-width: 60vh;
 }
 
-.teste {
+.content-produto {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -128,6 +139,10 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 99.2%;
+    height: 2.5rem;
 }
 
 form {
@@ -157,8 +172,4 @@ button {
 
 button:hover {
     background-color: #005bb5;
-}
-
-section {
-    flex-wrap: wrap;
 }
